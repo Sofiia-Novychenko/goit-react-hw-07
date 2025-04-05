@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-//* changeFilter - зміна значення фільтра в властивості name
+export const selectNameFilter = state => state.filters.name;
 
 const slice = createSlice({
   name: 'filters',
